@@ -2,7 +2,7 @@
 
 import { debounceTime, fromEvent, map, mergeAll, mergeMap, Observable, pluck, switchMap } from "rxjs";
 import { ajax } from "rxjs/ajax";
-import { GithubUser, GithubUsersResponse } from "./interfaces/github-users.interface";
+import { GithubUser, GithubUsersResponse } from "../interfaces/github-users.interface";
 
 // referencias
 const body = document.querySelector('body');

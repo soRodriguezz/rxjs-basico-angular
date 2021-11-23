@@ -22,7 +22,7 @@ import { interval, map, take } from 'rxjs';
         // Usar los operadores necesarios
         // para realizar la cuenta regresiva
         map(val => inicio - val),
-        take(inicio)
+        take(inicio + 1)
     );
     
 
